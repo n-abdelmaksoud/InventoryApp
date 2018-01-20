@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="rc_padding">24dp</dimen>
+    <dimen name="image_size_rc_empty_view">200dp</dimen>
+    <dimen name="text_size_rc_empty_view">18sp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+
+    <dimen name="category_text_size">22sp</dimen>
+    <dimen name="category_image_size_width">250dp</dimen>
+    <dimen name="category_image_size_height">150dp</dimen>
+
+    <dimen name="add_category_image_size">220dp</dimen>
+
+    <dimen name="pop_up_text_size">16sp</dimen>
+    <dimen name="grid_spacing_value">12dp</dimen>
+
+    <dimen name="edit_text_width">150dp</dimen>
+
+    <dimen name="item_name_text_size">18sp</dimen>
+    <dimen name="item_details_text_size">14sp</dimen>
+    <dimen name="item_old_price_text_size">12sp</dimen>
+
+</resources>

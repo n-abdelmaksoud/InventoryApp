@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/item_edit_text_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="64dp"
+        android:inputType="textCapSentences"
+        android:maxLines="3"
+        android:singleLine="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/custom_dark_gray"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/edit_text_item_description" />
+
+    <EditText
+        android:id="@+id/item_edit_text_buy_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/custom_dark_gray"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/item_edit_text_description"
+        app:layout_constraintStart_toStartOf="@+id/item_edit_text_description"
+        app:layout_constraintTop_toBottomOf="@+id/item_edit_text_description" />
+
+    <EditText
+        android:id="@+id/item_edit_text_sell_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/custom_dark_gray"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/item_edit_text_buy_price"
+        app:layout_constraintStart_toStartOf="@+id/item_edit_text_buy_price"
+        app:layout_constraintTop_toBottomOf="@+id/item_edit_text_buy_price" />
+
+    <EditText
+        android:id="@+id/item_edit_text_sale"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/custom_dark_gray"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/item_edit_text_sell_price"
+        app:layout_constraintStart_toStartOf="@+id/item_edit_text_sell_price"
+        app:layout_constraintTop_toBottomOf="@+id/item_edit_text_sell_price" />
+
+
+    <EditText
+        android:id="@+id/item_edit_text_stock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/custom_dark_gray"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/item_edit_text_sale"
+        app:layout_constraintStart_toStartOf="@+id/item_edit_text_sale"
+        app:layout_constraintTop_toBottomOf="@+id/item_edit_text_sale" />
+
+    <EditText
+        android:id="@+id/item_edit_text_ordered_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/custom_dark_gray"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/item_edit_text_stock"
+        app:layout_constraintStart_toStartOf="@+id/item_edit_text_stock"
+        app:layout_constraintTop_toBottomOf="@+id/item_edit_text_stock" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/edit_text_item_description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/categoryTitleBackground"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/item_edit_text_description"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_item_buy_price_string"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/categoryTitleBackground"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/item_edit_text_buy_price"
+        app:layout_constraintStart_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_item_sell_price_string"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/categoryTitleBackground"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/item_edit_text_sell_price"
+        app:layout_constraintStart_toStartOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_item_sale_percentage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/categoryTitleBackground"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/item_edit_text_sale"
+        app:layout_constraintStart_toStartOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_item_stock"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/categoryTitleBackground"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/item_edit_text_stock"
+        app:layout_constraintStart_toStartOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_item_no_ordered_items_string"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/categoryTitleBackground"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/item_edit_text_ordered_no"
+        app:layout_constraintStart_toStartOf="@+id/textView6" />
+
+</android.support.constraint.ConstraintLayout>

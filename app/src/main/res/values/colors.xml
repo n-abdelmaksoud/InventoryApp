@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E2D4B</color>
+    <color name="colorPrimaryDark">#152035</color>
+    <color name="colorAccent">#009A00</color>
+
+    <color name="image_background">#F6F6F6</color>
+
+    <color name="categoryTitleBackground">#284276</color>
+    <color name="itemTitleBackground">#27503B</color>
+
+    <color name="categoryTitleTextColor">#FFFFFF</color>
+    <color name="itemTitleTextColor">#FFFFFF</color>
+    <color name="itemDetailsColor">#FFFFCC</color>
+
+    <color name="itemSaleBackground">#FF0000</color>
+    <color name="itemSaleTextColor">#FFFFFF</color>
+    <color name="item_old_price">#A1A1A1</color>
+    <color name="custom_dark_gray">#6b6a6a</color>
+
+</resources>

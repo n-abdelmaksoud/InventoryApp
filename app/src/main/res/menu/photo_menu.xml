@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/upload_photo_pop_up_menu"
+        android:title="@string/upload_image_from_device" />
+
+    <item
+        android:id="@+id/take_photo_pop_up_menu"
+        android:title="@string/take_photo" />
+
+</menu>

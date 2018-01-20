@@ -1,0 +1,62 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Inventory</string>
+    <string name="add_category_item_string">Add New Category</string>
+
+
+    <string name="add_category_activity_string">Add New Category</string>
+    <string name="edit_category_activity_string">Edit </string>
+    <string name="add_category_title_string">Enter Category Title</string>
+    <string name="add_category_add_image">Add Category Photo</string>
+    <string name="upload_image_from_device">Upload photo from your device</string>
+    <string name="take_photo">Take a photo by the camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+
+    <string name="add_categories_activity">Start to add the main Categories</string>
+    <string name="add_items_activity">Start to add your Items</string>
+
+    <string name="dialog_msg_back_action">Exit and Discard changes?</string>
+    <string name="dialog_pos_button_back_action">Cancel</string>
+    <string name="dialog_neg_button_back_action">Discard</string>
+
+    <string name="dialog_msg_delete_action">Are you sure, you want to delete?</string>
+    <string name="dialog_pos_button_delete_action">Delete</string>
+    <string name="dialog_neg_button_delete_action">Cancel</string>
+
+    <string name="add_item_string">Add New Item</string>
+    <string name="edit_item_string">Edit </string>
+    <string name="edit_text_item_name_string">Name</string>
+    <string name="edit_text_item_description">Description</string>
+    <string name="edit_text_item_buy_price_string">Buy Price ($)</string>
+    <string name="edit_text_item_sell_price_string">Sell Price ($)</string>
+    <string name="edit_text_item_sale_percentage">Sale (%)</string>
+    <string name="edit_text_item_no_ordered_items_string">Ordered Number</string>
+    <string name="edit_text_item_stock">Stock Number</string>
+    <string name="item_details_sale_not_valid">Invalid Sale Number, Enter sale value from 0 to 100</string>
+
+    <string name="item_sale_text_view">%d%%</string>
+    <string name="item_sell_price_text_view">%.2f $</string>
+    <string name="item_stock_text_view">%d items</string>
+
+    <string name="dialog_permission_camera">Please Allow Camera Permission to take photo</string>
+    <string name="dialog_permission_write_external_storage">Please Allow Accessing External Storage to open photos </string>
+
+    <string name="toast_new_item_add_successfully">New Item has been added Successfully</string>
+    <string name="toast_item_updated_successfully">Item has been updated Successfully</string>
+    <string name="toast_new_item_add_failed">Failed to add new Item, try again!!</string>
+    <string name="toast_item_updated_failed">Failed to update Item, try again!!</string>
+
+
+    <string name="toast_new_category_added_successfully">New Category has been added Successfully</string>
+    <string name="toast_category_updated_successfully">Category has been updated Successfully</string>
+    <string name="toast_new_category_add_failed">Failed to add new Category, try again!!</string>
+    <string name="toast_category_updated_failed">Failed to update Category, try again!!</string>
+
+    <string name="toast_category_deleted_successfully">A category has been deleted Successfully</string>
+    <string name="toast_item_deleted_successfully">An item has been deleted Successfully</string>
+    <string name="toast_category_deleted_failed">Failed to delete Category, try again!!</string>
+    <string name="toast_item_deleted_failed">Failed to delete item, try again!!</string>
+
+
+</resources>

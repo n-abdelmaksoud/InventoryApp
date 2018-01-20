@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.littleprincess.inventory.CategoryListActivity">
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/rc_empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="@dimen/image_size_rc_empty_view"
+            android:layout_height="@dimen/image_size_rc_empty_view"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_view_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="@dimen/padding"
+            android:paddingTop="@dimen/padding"
+            android:text="@string/add_category_item_string"
+            android:textSize="@dimen/pop_up_text_size" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/padding"
+        android:layout_marginEnd="@dimen/padding"
+        android:layout_marginRight="@dimen/padding"
+        android:src="@drawable/ic_plus_white_24dp"
+        app:borderWidth="0dp"
+        app:elevation="3dp"
+        app:fabSize="normal" />
+
+
+</RelativeLayout>
